@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/palm.png" type="image/x-icon"/>
+
+    <title>A História</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/video1.txt", true);
+            xhttp.send();
+        }
+        function loadDoc2() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/video2.txt", true);
+            xhttp.send();
+        }
+        function loadDoc3() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/video3.txt", true);
+            xhttp.send();
+        }
+        function loadDoc4() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/video4.txt", true);
+            xhttp.send();
+        }
+        function loadDoc5() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("demo").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/video5.txt", true);
+            xhttp.send();
+        }
+</script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+				
+               
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="infra.html">Infra-estrutura</a>
+                    </li>
+                    <li>
+                        <a href="historia.html">Como Surgiu</a>
+                    </li>
+					 <li>
+                        <a href="foto.html">Fotos</a>
+                    </li>
+                     <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+					 <li>
+                        <a href="mapa.html">Mapa do Site</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/praia.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Video</h1>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<a class="hiddenSpellError" href="index.html">Início</a> » Video
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			 <div class="row">
+             <div class="box">
+                <div class="col-lg-12">
+                
+                <div class="post-preview">
+                    
+                        <h2 class="post-title">
+                            Bora tentar?
+                        </h2>           
+                        <div id="demo"></div>
+                       
+                        <button type="button" class="btn btn-outline-primary" onclick="loadDoc()">Conheça a praia</button> 
+                        <button type="button" class="btn btn-outline-secondary" onclick="loadDoc2()">Conheça a cidade</button>
+                        <button type="button" class="btn btn-outline-primary"  onclick="loadDoc3()">O evento</button>
+                        <button type="button" class="btn btn-outline-secondary" onclick="loadDoc4()">Circulou</button>
+                        <button type="button" class="btn btn-outline-primary"  onclick="loadDoc5()">Circulinho</button>
+                        <button type="button" class="btn btn-outline-secondary"  onclick="loadDoc2()">Eventos anteriores</button>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    
+                        <h2 class="post-title">
+                            O local escolhido
+                        </h2>
+							<p>
+							O local escolhido foi uma praia que estava fora do circuito turístico. No caso, estamos nos referindo a <a href="http://www.pratigi.com.br/">praia de Pratígi</a>, no município de Ituberá. Aliás, um lugar mágico e paradisíaco. Soma-se a isso o sólido apoio e adesão da população local e autoridades. Logo, o festival ofereceu sua contrapartida social auxiliando à comunidade carente de Ituberá. 
+                        </p>
+						</h3>
+                  
+                    
+                </div>
+                <hr>
+                <div class="post-preview">
+                    
+                        <h2>Atrações</h2>
+						<p>A partir da oitava edição do UP, uma série de experiências inovadoras e bem sucedidas, como por exemplo os cinco espaços musicais colocados à disposição do público. Assim, passamos a ter a Pista Goa, na realidade uma pista temática que foi palco de um dos mais memoráveis momentos na história recente do Psytrance, quando na sua abertura se apresentaram artistas mostrando o Trance produzido nos primeiros momentos do movimento. A edição 2017-18 já começou a divulgar suas atrações, que podem ser comnfeiradas clicando <a href="https://universoparalello.org/pt/primeirasatracoesconfirmadas/">aqui.</a>
+                        </p>
+                        <p>Além disso, o <a href="http://www.universoparalello.org/home.php?id=1&lang=br">Universo Paralello</a> a passou a oferecer uma infra-estrutura impecável ao público presente.  Posto médico altamente equipado e capacitado, banheiros e chuveiros adequados, bares ágeis e praça de alimentação com variada e excelente qualidade nos produtos oferecidos.</p>
+                  
+                    
+                </div>  
+            </div>
+        </div>
+    </div>
+        <div class="col-lg-12 text-center">
+            <a href="javascript:toTop();" class="btn btn-default btn-lg">Volte ao topo</a>
+            <br></br>
+        </div>
+
+    </div>
+    </article>
+    
+    <footer>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12 text-center" style="background-color:white">
+                     <p>Site desenvolvido por: Kaio Costa / Ramon Souza / Weber Detoni / Victor Duque </br>
+					 Ferramentas utilizadas: Audacity, Adobe Premiere Pro CC 2017, Google Web Designer, Sublime Text  </p>
+                 </div>
+             </div>
+         </div>
+     </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+    <!-- Subir ao topo suave -->
+    <script src="js/jquery/jquery.js" type="text/javascript"></script>
+    <script>
+        function toTop(){
+        $('html, body').animate({
+        scrollTop: 0
+        }, 1000, 'linear');
+        }
+    </script>
+
+</body>
+
+</html>
