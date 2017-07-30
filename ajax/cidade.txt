@@ -1,0 +1,4 @@
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Q4XRAhj4t0M" frameborder="0" allowfullscreen></iframe>
+	<button type="button" class="btn btn-default btn-lg" onclick="praia()">Conheça a praia</button> 
+	<button type="button" class="btn btn-default btn-lg"  onclick="evento()">O evento</button>
