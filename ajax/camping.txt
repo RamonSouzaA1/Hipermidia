@@ -1,6 +1,5 @@
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/j7VNGpgsEII?rel=0" frameborder="0" allowfullscreen> </iframe>
+<iframe width="560" height="315" src="video/camping.mp4" frameborder="0" allowfullscreen> </iframe>
 	<button type="button" class="btn btn-default btn-lg" onclick="camping()">Área de Camping</button> 
 	<button type="button" class="btn btn-default btn-lg"  onclick="cozinha()">Cozinha Comunitária</button>
 	<button type="button" class="btn btn-default btn-lg"  onclick="shows()">Shows</button>
 	<button type="button" class="btn btn-default btn-lg"  onclick="circulinho()">Circulinho</button>
-	<button type="button" class="btn btn-default btn-lg"  onclick="anteriores()">Eventos Anteriores</button>

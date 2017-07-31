@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/palm.png" type="image/x-icon"/>
 
-    <title>A História</title>
+    <title>Conhecendo o UP</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -59,24 +59,84 @@
             xhttp.open("GET", "ajax/evento.txt", true);
             xhttp.send();
         }
-        function loadDoc4() {
+        function anteriores() {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (xhttp.readyState == 4 && xhttp.status == 200) {
                     document.getElementById("video").innerHTML = xhttp.responseText;
                 }
             };
-            xhttp.open("GET", "ajax/video4.txt", true);
+            xhttp.open("GET", "ajax/anteriores.txt", true);
             xhttp.send();
         }
-        function loadDoc5() {
+        function camping() {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (xhttp.readyState == 4 && xhttp.status == 200) {
                     document.getElementById("video").innerHTML = xhttp.responseText;
                 }
             };
-            xhttp.open("GET", "ajax/video5.txt", true);
+            xhttp.open("GET", "ajax/camping.txt", true);
+            xhttp.send();
+        }
+        function circulinho() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("video").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/circulinho.txt", true);
+            xhttp.send();
+        }
+        function cozinha() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("video").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/cozinha.txt", true);
+            xhttp.send();
+        }
+        function shows() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("video").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/shows.txt", true);
+            xhttp.send();
+        }
+        function ano11() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("video").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/11.txt", true);
+            xhttp.send();
+        }
+        function ano12() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("video").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/12.txt", true);
+            xhttp.send();
+        }
+        function ano13() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("video").innerHTML = xhttp.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax/13.txt", true);
             xhttp.send();
         }
 </script>
@@ -127,19 +187,18 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/praia.jpg')">
+    <header class="intro-header" style="background-image: url('img/universovideo.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Video</h1>
-                        
+                        <h1>Conhecendo o Universo Paralello </h1>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-<a class="hiddenSpellError" href="index.html">Início</a> » Video
+<a class="hiddenSpellError" href="index.html">Início</a> » Conhecendo UP
     <!-- Main Content -->
     <div class="container">
         <div class="row">
@@ -150,37 +209,13 @@
                 
                 <div class="col-lg-12">
                     
-                        <h2 class="post-title">
-                            Bora tentar?
-                        </h2>           
+                        <h2 class="post-title">Universo Paralello</h2><hr>           
                         <div id="video">
                             <button type="button" class="btn btn-default btn-lg" onclick="cidade()">Conheça a cidade</button>
                         </div>
                         <hr>
                 </div>
                 <hr>
-                <div class="post-preview">
-                    
-                        <h2 class="post-title">
-                            O local escolhido
-                        </h2>
-							<p>
-							O local escolhido foi uma praia que estava fora do circuito turístico. No caso, estamos nos referindo a <a href="http://www.pratigi.com.br/">praia de Pratígi</a>, no município de Ituberá. Aliás, um lugar mágico e paradisíaco. Soma-se a isso o sólido apoio e adesão da população local e autoridades. Logo, o festival ofereceu sua contrapartida social auxiliando à comunidade carente de Ituberá. 
-                        </p>
-						</h3>
-                  
-                    
-                </div>
-                <hr>
-                <div class="post-preview">
-                    
-                        <h2>Atrações</h2>
-						<p>A partir da oitava edição do UP, uma série de experiências inovadoras e bem sucedidas, como por exemplo os cinco espaços musicais colocados à disposição do público. Assim, passamos a ter a Pista Goa, na realidade uma pista temática que foi palco de um dos mais memoráveis momentos na história recente do Psytrance, quando na sua abertura se apresentaram artistas mostrando o Trance produzido nos primeiros momentos do movimento. A edição 2017-18 já começou a divulgar suas atrações, que podem ser comnfeiradas clicando <a href="https://universoparalello.org/pt/primeirasatracoesconfirmadas/">aqui.</a>
-                        </p>
-                        <p>Além disso, o <a href="http://www.universoparalello.org/home.php?id=1&lang=br">Universo Paralello</a> a passou a oferecer uma infra-estrutura impecável ao público presente.  Posto médico altamente equipado e capacitado, banheiros e chuveiros adequados, bares ágeis e praça de alimentação com variada e excelente qualidade nos produtos oferecidos.</p>
-                  
-                    
-                </div>  
             </div>
         </div>
     </div>
